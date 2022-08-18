@@ -1,0 +1,19 @@
+{
+    "manifest_version":2,
+    "version":"0.0.1",
+    "name":"Midnightify",
+    "icons": {
+        "48": "midnight-icon.gif",
+        "96": "midnight-icon.gif"
+      },      
+    "content_scripts":[
+        {
+         "matches":["<all_urls>"],
+         "js":["main.js"]
+        }
+      ],
+      "web_accessible_resources": [
+            "midnight.gif"
+      ]
+  }
+  
